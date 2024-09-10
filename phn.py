@@ -2,10 +2,10 @@ import streamlit as st
 
 # Define the main page layout
 def main_page():
-    st.title("Welcome!")
-    
+    st.title("Welcome !")
+    st.write("Help !")
     # Create a logo button
-    if st.button("📞 Contact Us:"):
+    if st.button("📞 Contact Us"):
         phone_number_page()
 
 # Define the phone number page
